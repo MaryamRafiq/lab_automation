@@ -70,7 +70,7 @@
                 <div class="dropdown-menu bg-transparent border-0">
                     <ul>
                   <li>  <a href="button.html" class="dropdown-item">All Reports</a></li>
-                    <li><a href="typography.html" class="dropdown-item">Generate Reports</a></li>
+                    <li><a href="typography.html" class="dropdown-item">Generate Report</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-list" style="background-color: transparent"></i>Pages</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <ul>
-                    <li><a href="signin.html" class="dropdown-item">Sign In</a></li>
+                    <li><a href="signin.html" class="dropdown-item">Login</a></li>
                     <li><a href="signup.html" class="dropdown-item">Sign Up</a></li>
                     </ul>
                 </div>
