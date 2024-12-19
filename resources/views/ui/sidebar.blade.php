@@ -8,10 +8,11 @@
 
 
 <!-- Sidebar Start -->
-<div class="sidebar pe-4 pb-3">
+<div class="sidebar pe-4 pb-3 ">
     <nav class="navbar bg-light navbar-light">
         <a href="index.html" class="navbar-brand mx-4 mb-3">
-            <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>LAB AUTOMATION</h3>
+            <h3 class="text-primary m-4 pr-5"><img src="img/logo.png" style="width: 100%; height:100px;" alt=""></h3>
+            
         </a>
         <div class="d-flex align-items-center ms-4 mb-4">
             <div class="position-relative">
@@ -19,61 +20,67 @@
                 <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
             </div>
             <div class="ms-3">
-                <h6 class="mb-0">Jhon Doe</h6>
+                <h6 class="mb-0">LabTech</h6>
                 <span>Admin</span>
             </div>
         </div>
         <div class="navbar-nav w-100">
-            <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="index.html" class="nav-item nav-link "><i class="fa fa-tachometer-alt me-2" style="background-color: transparent"></i>Dashboard</a>
+
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Users</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-user" style="background-color:transparent"></i>Users</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">All Users</a>
-                    <a href="typography.html" class="dropdown-item">Add User</a>
+                    <ul>
+                   <li> <a href="button.html" class="dropdown-item">All Users</a></li>
+                    <li><a href="typography.html" class="dropdown-item">Add User</a></li>
+                
+                    </ul>
+                </div>
+
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-boxes-stacked" style="background-color: transparent"></i> Categories</a>
+                <div class="dropdown-menu bg-transparent border-0">
+                    <ul>
+                    <li><a href="button.html" class="dropdown-item">All Categories</a></li>
+                  <li>  <a href="typography.html" class="dropdown-item">Add Category</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Products</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-box" style="background-color: transparent"></i>Products</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">All Products</a>
-                    <a href="typography.html" class="dropdown-item">Add Product</a>
+                    <ul>
+                    <li><a href="button.html" class="dropdown-item">All Products</a></li>
+                   <li> <a href="typography.html" class="dropdown-item">Add Product</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Products Category</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-microscope" style="background-color: transparent"></i>Testings</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">All Categories</a>
-                    <a href="typography.html" class="dropdown-item">Add Category</a>
+                    <ul>
+                    <li><a href="button.html" class="dropdown-item"> Testing list</a></li>
+                    <li><a href="typography.html" class="dropdown-item">Add Testing</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Departments</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2" style="background-color: transparent"></i>Reports</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">All Departments</a>
-                    <a href="typography.html" class="dropdown-item">Add Department</a>
+                    <ul>
+                  <li>  <a href="button.html" class="dropdown-item">All Reports</a></li>
+                    <li><a href="typography.html" class="dropdown-item">Generate Reports</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2">Testing</i></a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-list" style="background-color: transparent"></i>Pages</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">Add Testing</a>
-                    <a href="typography.html" class="dropdown-item">Add Testing</a>
-                </div>
-            </div>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Reports</a>
-                <div class="dropdown-menu bg-transparent border-0">
-                    <a href="button.html" class="dropdown-item">All Reports</a>
-                    <a href="typography.html" class="dropdown-item">Generate Reports</a>
-                </div>
-            </div>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
-                <div class="dropdown-menu bg-transparent border-0">
-                    <a href="signin.html" class="dropdown-item">Sign In</a>
-                    <a href="signup.html" class="dropdown-item">Sign Up</a>
-                    <a href="404.html" class="dropdown-item">404 Error</a>
-                    <a href="blank.html" class="dropdown-item">Blank Page</a>
+                    <ul>
+                    <li><a href="signin.html" class="dropdown-item">Sign In</a></li>
+                    <li><a href="signup.html" class="dropdown-item">Sign Up</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
