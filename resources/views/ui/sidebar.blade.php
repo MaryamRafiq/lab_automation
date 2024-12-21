@@ -69,8 +69,8 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2" style="background-color: transparent"></i>Reports</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <ul>
-                  <li>  <a href="button.html" class="dropdown-item">All Reports</a></li>
-                    <li><a href="typography.html" class="dropdown-item">Generate Report</a></li>
+                  <li>  <a href="/allreports" class="dropdown-item">All Reports</a></li>
+                    <li><a href="/generatereport" class="dropdown-item">Generate Report</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,8 +78,8 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa-solid fa-list" style="background-color: transparent"></i>Pages</a>
                 <div class="dropdown-menu bg-transparent border-0">
                     <ul>
-                    <li><a href="signin.html" class="dropdown-item">Login</a></li>
-                    <li><a href="signup.html" class="dropdown-item">Sign Up</a></li>
+                    <li><a href="/login" class="dropdown-item">Login</a></li>
+                    <li><a href="/signup" class="dropdown-item">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
