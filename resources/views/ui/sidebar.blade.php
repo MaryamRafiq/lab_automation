@@ -11,7 +11,7 @@
 <div class="sidebar pe-4 pb-3 ">
     <nav class="navbar bg-light navbar-light">
         <a href="index.html" class="navbar-brand mx-4 mb-3">
-            <div class="text-primary m-4 fw-bold fs-5 pr-5"><img src="img/logo.png" style="width: 70%; height:90px; margin-left:15px" alt=""> Lab Automation</div>
+            <div class="text-primary m-2 pr-4 mt-4 mb-3"><img src="img/logo6.png" style="width: 400px; height:40px; margin-left: -5px" alt=""></div>
             
         </a>
         <div class="d-flex align-items-center ms-4 mb-4">

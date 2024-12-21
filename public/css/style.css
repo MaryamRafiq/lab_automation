@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
 /********** Template CSS **********/
 :root {
     --primary: #009CFF;
     --light: #F3F6F9;
     --dark: #191C24;
 }
-
+body{
+    font-family: "McLaren", serif;
+}
 .back-to-top {
     position: fixed;
     display: none;
